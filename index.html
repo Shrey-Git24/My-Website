@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shrey Pandey - Web Developer,Competitive Coder</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <script src="https://kit.fontawesome.com/b93b68e4d6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="header">
+        <img src="images/logo.png" alt="Shrey" class="logo">
+        <nav>
+            <ul id="sidemenu">
+                <li><a href="#header" class="active-link">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#portfolio">My Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+    </div>
+    <div class="contain">
+        <div class="text">
+            <h1>Hi, I'm <span>Shrey Pandey</span>.<br></h1>
+            <p>I'm a Web Developer,a Programmer.I enjoy creating websites and<br> Problem Solving using Data Structures &
+            Algorithms.</p>
+        </div>
+        <div class="image">
+            <img src="images/background.jpg" alt="My Image">
+        </div>
+        
+        
+    </div>
+    <!------------About------------->
+    <div id="about">
+        <div class="container">
+            <h1 class="me">About Me</h1>
+            <div class="row">
+                
+                <div class="col1">
+                    <img src="images/me.jpg">
+                </div>
+                <div class="col2">
+                    
+                    <p>A 3rd year student at Madan Mohan Malviya University Of Technology,core branch ECE,<br>searching
+                        for some excellent opportunity to learn use of my skills in real world.<br>As an engineer,I
+                        believe in the creation of the solution for the problems of today.<br>Have keen interest in
+                        problem solving and web development. </p>
+                    <div class="tab">
+                        <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <label for="cpp">C++:</label><br><p>80%
+                        <meter id="cpp" value="0.8">80%</meter></p><br>
+                        <label for="hc">HTML & CSS:</label><br><p>80%    
+                        <meter id="hc" value="0.8">80%</meter></p><br>
+                        <label for="js">JavaScript:</label><br><p>70%     
+                        <meter id="js" value="0.7">70%</meter></p><br>
+                        <label for="dsa">Data Structures & Algorithms:</label><br><p>65%     
+                        <meter id="dsa" value="0.65">65%</meter></p><br>
+                        <label for="java">Java:</label><br><p>50%    
+                        <meter id="java" value="0.5">50%</meter></p><br>
+                        <label for="py">Python:</label><br><p>60%    
+                        <meter id="py" value="0.6">60%</meter></p><br>
+                        <label for="c">C :</label><br><p>90%      
+                        <meter id="c" value="0.9">90%</meter></p><br>
+                        <label for="ad">Android Development :</label><br><p>30%      
+                        <meter id="ad" value="0.3">30%</meter></p>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>150+</span>PROBLEMS ON DSA ACROSS PLATFORMS</li>
+                            <li><span>5+</span>PROJECTS COMPLETED</li>
+                            <li><span>1+</span>YEARS OF EXPERIENCE</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>HIGH SCHOOL</span><br>PATANJALI RISHIKUL (2016-2017)<br>Completed class 10th with 10 CGPA.</li>
+                            <li><span>INTERMEDIATE</span><br>PATANJALI RISHIKUL (2017-2019)<br>Completed class 12th with 95%.</li>
+                            <li><span>BACHELOR OF TECHNOLOGY</span><br>MMMUT , GORAKHPUR (2020-2024)<br>Persuing my B.Tech.Presently in 3rd year with 8.30 CGPA (till 2nd Year).</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------portfolio------>
+    <div id="portfolio">
+        <h1 class="me">My Work</h1>
+        <div class="work-title">
+            <div class="work-1">
+                <img src="images/work-1.png" alt="My Work">
+                <div class="layer">
+                    <h2>Spotify Clone</h2>
+                    <p>A clone website of famous music brand Spotify made using HTML, CSS & JAVACSRIPT. </p>
+                    <a href="https://github.com/Shrey-Git24/Spotify_Clone.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work-2">
+                <img src="images/work-2.png" alt="My Work">
+                <div class="layer">
+                    <h2>Restaurant's Website</h2>
+                    <p>A responsive website of a restaurant made using HTML, CSS & JAVACSRIPT. </p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work-3">
+                <img src="images/work-3.png" alt="My Work">
+                <div class="layer">
+                    <h2>Banking System</h2>
+                    <p>A bank management system made using Object Oriented Programming in C++. </p>
+                    <a href="https://github.com/Shrey-Git24/Banking-System.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+<!---------Contact----------->
+    <div id="contact">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="me">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>pandeyshrey45@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9140674757</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/shrey-pandey-8b23b1224/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Shrey-Git24"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="images/me.jpg" download class="btn">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name..." required>
+                    <input type="email" name="E-Mail" placeholder="Your E-Mail..." required>
+                    <input type="tel" name="Number" placeholder="Your Contact No...." required>
+                    <textarea name="Message" rows="6" placeholder="Your Message..."></textarea>
+                    <button type="submit" class="btn">Post</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Shrey Pandey. Made with <i class="fas fa-heart"></i> by Shrey.</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-links");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-links");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }    
+    </script>
+    <!--Sumitting feedback form-->
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxv4s28V8uOaOwGKeB3YEcHOEn_jMKv1wNECNCIQcwBj2zAd6UtaT290ztY03x9qWpa/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          /*Resetting form after few seconds*/
+            .then(response => {
+                msg.innerHTML = "Message sent successfully !"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },1000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+      
+</body>
+
+</html>
